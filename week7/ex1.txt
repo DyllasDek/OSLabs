@@ -1,0 +1,8 @@
+   text	   data	    bss	    dec	    hex	filename
+   2349	    640	      8	   2997	    bb5	ex2
+   text	   data	    bss	    dec	    hex	filename
+   2705	    656	      8	   3369	    d29	ex3
+   text	   data	    bss	    dec	    hex	filename
+   2870	    656	      8	   3534	    dce	ex4
+   text	   data	    bss	    dec	    hex	filename
+   1918	    616	      8	   2542	    9ee	ex5
