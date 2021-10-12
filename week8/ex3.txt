@@ -1,0 +1,362 @@
+[?1h=[?25l[H[2J(B[mtop - 11:20:36 up 19 min,  1 user,  load average: 0,51, 0,55, 0,43(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 213 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 211 (B[m[39;49msleeping,(B[m[39;49m[1m   1 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  3,6 (B[m[39;49mus,(B[m[39;49m[1m  5,4 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m 69,6 (B[m[39;49mid,(B[m[39;49m[1m 14,3 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  7,1 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   2961,9 (B[m[39;49mtotal,(B[m[39;49m[1m    378,0 (B[m[39;49mfree,(B[m[39;49m[1m   2405,4 (B[m[39;49mused,(B[m[39;49m[1m    178,4 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m    687,5 (B[m[39;49mtotal,(B[m[39;49m[1m      5,8 (B[m[39;49mfree,(B[m[39;49m[1m    681,7 (B[m[39;49mused.(B[m[39;49m[1m    381,1 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                           (B[m[39;49m[K
+(B[m     96 root       0 -20       0      0      0 I   5,9   0,0   0:00.53 kworker/0:1H-kblockd                              (B[m[39;49m[K
+(B[m    856 dyllasd+   9 -11 2990168   1968    576 S   5,9   0,1   0:07.13 pulseaudio                                        (B[m[39;49m[K
+(B[m   1237 dyllasd+  20   0 1205156   8732   5744 D   5,9   0,3   0:03.74 nautilus                                          (B[m[39;49m[K
+(B[m   1472 dyllasd+  20   0 3649132 192916  42916 S   5,9   6,4   2:41.82 firefox                                           (B[m[39;49m[K
+(B[m[1m   2481 dyllasd+  20   0   20632   3792   3136 R   5,9   0,1   0:00.02 top                                               (B[m[39;49m[K
+(B[m      1 root      20   0  167620   2556      0 S   0,0   0,1   0:01.52 systemd                                           (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd                                          (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp                                            (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp                                        (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri                       (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq                                      (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_rude_                                   (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_trace                                   (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 S   0,0   0,0   0:00.07 ksoftirqd/0                                       (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0,0   0,0   0:00.61 rcu_sched                                         (B[m[39;49m[K
+(B[m     14 root      rt   0       0      0      0 S   0,0   0,0   0:00.00 migration/0                                       (B[m[39;49m[K
+(B[m     15 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0                                     (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0                                           (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1                                           (B[m[39;49m[K
+(B[m     18 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1                                     (B[m[39;49m[K
+(B[m     19 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/1                                       (B[m[39;49m[K
+(B[m     20 root      20   0       0      0      0 S   0,0   0,0   0:00.17 ksoftirqd/1                                       (B[m[39;49m[K
+(B[m     22 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri                       (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2                                           (B[m[39;49m[K
+(B[m     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2                                     (B[m[39;49m[K
+(B[m     25 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/2                                       (B[m[39;49m[K
+(B[m     26 root      20   0       0      0      0 S   0,0   0,0   0:00.08 ksoftirqd/2                                       (B[m[39;49m[K
+(B[m     28 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri                       (B[m[39;49m[K
+(B[m     29 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs                                         (B[m[39;49m[K
+(B[m     30 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns                                             (B[m[39;49m[K
+(B[m     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq                                      (B[m[39;49m[K
+(B[m     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd                                           (B[m[39;49m[K
+(B[m     33 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd                                        (B[m[39;49m[K
+(B[m     34 root      20   0       0      0      0 S   0,0   0,0   0:00.27 oom_reaper                                        (B[m[39;49m[K
+(B[m     35 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback                                         (B[m[39;49m[K
+(B[m     36 root      20   0       0      0      0 S   0,0   0,0   0:00.07 kcompactd0                                        (B[m[39;49m[K
+(B[m     37 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd                                              (B[m[39;49m[K
+(B[m     38 root      39  19       0      0      0 S   0,0   0,0   0:00.00 khugepaged                                        (B[m[39;49m[K
+(B[m     44 root      20   0       0      0      0 I   0,0   0,0   0:00.30 kworker/1:1-events                                (B[m[39;49m[K[H(B[mtop - 11:20:37 up 19 min,  1 user,  load average: 0,55, 0,55, 0,43(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 213 (B[m[39;49mtotal,(B[m[39;49m[1m   2 (B[m[39;49mrunning,(B[m[39;49m[1m 210 (B[m[39;49msleeping,(B[m[39;49m[1m   1 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  2,7 (B[m[39;49mus,(B[m[39;49m[1m  6,4 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m 77,0 (B[m[39;49mid,(B[m[39;49m[1m 11,8 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  2,0 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m[1m   2480 dyllasd+  20   0 2296284   2,0g   1064 R  15,8  67,9   0:00.89 ex2                                               (B[m[39;49m[K
+(B[m   1237 dyllasd+  20   0 1205156  20988  13344 S   5,0   0,7   0:03.79 nautilus                                          (B[m[39;49m[K
+(B[m     98 root      20   0       0      0      0 D   2,0   0,0   0:07.55 kswapd0                                           (B[m[39;49m[K
+(B[m    177 root       0 -20       0      0      0 I   2,0   0,0   0:00.45 kworker/1:1H-kblockd                              (B[m[39;49m[K
+(B[m     96 root       0 -20       0      0      0 I   1,0   0,0   0:00.54 kworker/0:1H-kblockd                              (B[m[39;49m[K
+(B[m    151 root       0 -20       0      0      0 I   1,0   0,0   0:00.44 kworker/2:1H-kblockd                              (B[m[39;49m[K
+(B[m   1472 dyllasd+  20   0 3649132 191536  42916 S   1,0   6,3   2:41.83 firefox                                           (B[m[39;49m[K
+(B[m   1591 dyllasd+  20   0 2776560  78720   8080 S   1,0   2,6   0:25.76 Web Content                                       (B[m[39;49m[K
+(B[m   2107 dyllasd+  20   0 2486928  60084  27376 S   1,0   2,0   0:21.80 file:// Content                                   (B[m[39;49m[K
+(B[m   2235 dyllasd+  20   0  823172  15644   8528 S   1,0   0,5   0:03.74 gnome-terminal-                                   (B[m[39;49m[K
+(B[m   2297 dyllasd+  20   0 2681132  76404  20240 S   1,0   2,5   0:16.11 Web Content                                       (B[m[39;49m[K
+(B[m[1m   2481 dyllasd+  20   0   20632   3792   3136 R   1,0   0,1   0:00.03 top                                               (B[m[39;49m[K
+(B[m      1 root      20   0  167620   2556      0 S   0,0   0,1   0:01.52 systemd                                           (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd                                          (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp                                            (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp                                        (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri                       (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq                                      (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_rude_                                   (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_trace                                   (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 S   0,0   0,0   0:00.07 ksoftirqd/0                                       (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0,0   0,0   0:00.61 rcu_sched                                         (B[m[39;49m[K
+(B[m     14 root      rt   0       0      0      0 S   0,0   0,0   0:00.00 migration/0                                       (B[m[39;49m[K
+(B[m     15 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0                                     (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0                                           (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1                                           (B[m[39;49m[K
+(B[m     18 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1                                     (B[m[39;49m[K
+(B[m     19 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/1                                       (B[m[39;49m[K
+(B[m     20 root      20   0       0      0      0 S   0,0   0,0   0:00.17 ksoftirqd/1                                       (B[m[39;49m[K
+(B[m     22 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri                       (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2                                           (B[m[39;49m[K
+(B[m     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2                                     (B[m[39;49m[K
+(B[m     25 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/2                                       (B[m[39;49m[K
+(B[m     26 root      20   0       0      0      0 S   0,0   0,0   0:00.08 ksoftirqd/2                                       (B[m[39;49m[K
+(B[m     28 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri                       (B[m[39;49m[K
+(B[m     29 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs                                         (B[m[39;49m[K
+(B[m     30 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns                                             (B[m[39;49m[K
+(B[m     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq                                      (B[m[39;49m[K
+(B[m     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd                                           (B[m[39;49m[K[H(B[mtop - 11:20:40 up 19 min,  1 user,  load average: 0,55, 0,55, 0,43(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0,3 (B[m[39;49mus,(B[m[39;49m[1m 59,5 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m 11,5 (B[m[39;49mid,(B[m[39;49m[1m 24,9 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  3,9 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m     98 root      20   0       0      0      0 S 100,0   0,0   0:10.66 kswapd0                                           (B[m[39;49m[K
+(B[m   1591 dyllasd+  20   0 2776560  71036    332 D  40,2   2,3   0:26.23 Web Content                                       (B[m[39;49m[K
+(B[m   1804 dyllasd+  20   0 2435236  14488    380 D  30,8   0,5   0:05.23 Web Content                                       (B[m[39;49m[K
+(B[m    856 dyllasd+   9 -11 2990168   3000   1652 S  29,1   0,1   0:07.47 pulseaudio                                        (B[m[39;49m[K
+(B[m   1773 dyllasd+  20   0 2436000  12108    380 D  19,7   0,4   0:07.58 Web Content                                       (B[m[39;49m[K
+(B[m   1237 dyllasd+  20   0 1205156   7868     60 D  16,2   0,3   0:03.98 nautilus                                          (B[m[39;49m[K
+(B[m   1617 dyllasd+  20   0 2428304   5944    292 S  15,4   0,2   0:01.85 WebExtensions                                     (B[m[39;49m[K
+(B[m   2480 dyllasd+  20   0 2296284   1,6g      4 D  15,4  56,8   0:01.07 ex2                                               (B[m[39;49m[K
+(B[m   2297 dyllasd+  20   0 2681132  56756    616 S  13,7   1,9   0:16.27 Web Content                                       (B[m[39;49m[K
+(B[m   1472 dyllasd+  20   0 3649132 162848  14268 S  10,3   5,4   2:41.95 firefox                                           (B[m[39;49m[K
+(B[m   1463 dyllasd+  20   0  987156  16692    836 D   8,5   0,6   0:06.41 gedit                                             (B[m[39;49m[K
+(B[m   1675 dyllasd+  20   0 2548228  52696    284 S   8,5   1,7   0:23.97 Web Content                                       (B[m[39;49m[K
+(B[m   2107 dyllasd+  20   0 2486928  39860   7152 D   7,7   1,3   0:21.89 file:// Content                                   (B[m[39;49m[K
+(B[m   1735 dyllasd+  20   0  360064    152     64 S   6,0   0,0   0:00.23 sd_dummy                                          (B[m[39;49m[K
+(B[m   1116 dyllasd+  20   0 4069472  39072     28 S   5,1   1,3   0:41.49 gnome-shell                                       (B[m[39;49m[K
+(B[m   1547 dyllasd+  20   0 2420964   8920    380 D   5,1   0,3   0:01.98 Privileged Cont                                   (B[m[39;49m[K
+(B[m   1729 dyllasd+  20   0  459004    148     64 S   5,1   0,0   0:00.25 sd_espeak-ng                                      (B[m[39;49m[K
+(B[m    175 root      20   0       0      0      0 I   2,6   0,0   0:00.55 kworker/0:2-mm_percpu_wq                          (B[m[39;49m[K
+(B[m   2235 dyllasd+  20   0  823172   7308    192 D   2,6   0,2   0:03.77 gnome-terminal-                                   (B[m[39;49m[K
+(B[m[1m   2481 dyllasd+  20   0   20632    808      0 R   2,6   0,0   0:00.06 top                                               (B[m[39;49m[K
+(B[m     44 root      20   0       0      0      0 I   1,7   0,0   0:00.32 kworker/1:1-events                                (B[m[39;49m[K
+(B[m    268 root      20   0       0      0      0 I   1,7   0,0   0:00.76 kworker/2:2-events                                (B[m[39;49m[K
+(B[m    661 root      20   0   13688    384      0 S   1,7   0,0   0:00.03 wpa_supplicant                                    (B[m[39;49m[K
+(B[m   1823 dyllasd+  20   0  428968   9448      0 S   1,7   0,3   0:00.57 update-notifier                                   (B[m[39;49m[K
+(B[m     20 root      20   0       0      0      0 S   0,9   0,0   0:00.18 ksoftirqd/1                                       (B[m[39;49m[K
+(B[m[1m     34 root      20   0       0      0      0 R   0,9   0,0   0:00.28 oom_reaper                                        (B[m[39;49m[K
+(B[m     96 root       0 -20       0      0      0 I   0,9   0,0   0:00.55 kworker/0:1H-kblockd                              (B[m[39;49m[K
+(B[m    614 root      20   0  246884    532      0 S   0,9   0,0   0:00.09 accounts-daemon                                   (B[m[39;49m[K
+(B[m   2392 dyllasd+  20   0 2390464    864    380 S   0,9   0,0   0:00.18 Web Content                                       (B[m[39;49m[K
+(B[m      1 root      20   0  167620   2556      0 S   0,0   0,1   0:01.52 systemd                                           (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd                                          (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp                                            (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp                                        (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri                       (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq                                      (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_rude_                                   (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_trace                                   (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 S   0,0   0,0   0:00.07 ksoftirqd/0                                       (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0,0   0,0   0:00.61 rcu_sched                                         (B[m[39;49m[K[H(B[mtop - 11:20:41 up 19 min,  1 user,  load average: 0,55, 0,55, 0,43(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 212 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 210 (B[m[39;49msleeping,(B[m[39;49m[1m   1 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  1,7 (B[m[39;49mus,(B[m[39;49m[1m  6,6 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m 85,4 (B[m[39;49mid,(B[m[39;49m[1m  5,6 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  0,7 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   2961,9 (B[m[39;49mtotal,(B[m[39;49m[1m   2135,4 (B[m[39;49mfree,(B[m[39;49m[1m    708,6 (B[m[39;49mused,(B[m[39;49m[1m    117,9 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m    687,5 (B[m[39;49mtotal,(B[m[39;49m[1m      0,1 (B[m[39;49mfree,(B[m[39;49m[1m    687,4 (B[m[39;49mused.(B[m[39;49m[1m   2102,7 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m     34 root      20   0       0      0      0 S   2,9   0,0   0:00.37 oom_reaper                                        (B[m[39;49m[K
+(B[m   1472 dyllasd+  20   0 3649132 162972  14268 S   1,0   5,4   2:41.98 firefox                                           (B[m[39;49m[K
+(B[m   2107 dyllasd+  20   0 2486928  42768  10060 S   0,6   1,4   0:21.91 file:// Content                                   (B[m[39;49m[K
+(B[m    243 root      19  -1   51964   7176   6136 S   0,3   0,2   0:00.54 systemd-journal                                   (B[m[39;49m[K
+(B[m    856 dyllasd+   9 -11 2990168   2992   1644 S   0,3   0,1   0:07.48 pulseaudio                                        (B[m[39;49m[K
+(B[m    871 dyllasd+  20   0  303340  29188  11036 S   0,3   1,0   0:28.79 Xorg                                              (B[m[39;49m[K
+(B[m   1116 dyllasd+  20   0 4069472  45908   6852 S   0,3   1,5   0:41.50 gnome-shell                                       (B[m[39;49m[K
+(B[m   1237 dyllasd+  20   0 1205156   8048    240 S   0,3   0,3   0:03.99 nautilus                                          (B[m[39;49m[K
+(B[m   1591 dyllasd+  20   0 2776560  79036   8036 S   0,3   2,6   0:26.24 Web Content                                       (B[m[39;49m[K
+(B[m   1773 dyllasd+  20   0 2436000  12108    380 S   0,3   0,4   0:07.59 Web Content                                       (B[m[39;49m[K
+(B[m   1804 dyllasd+  20   0 2435236  14752    644 S   0,3   0,5   0:05.24 Web Content                                       (B[m[39;49m[K
+(B[m   2297 dyllasd+  20   0 2681132  61256   5116 S   0,3   2,0   0:16.28 Web Content                                       (B[m[39;49m[K
+(B[m[1m   2481 dyllasd+  20   0   20632   2124   1316 R   0,3   0,1   0:00.07 top                                               (B[m[39;49m[K
+(B[m      1 root      20   0  167620   2556      0 S   0,0   0,1   0:01.52 systemd                                           (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd                                          (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp                                            (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp                                        (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri                       (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq                                      (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_rude_                                   (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_trace                                   (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 S   0,0   0,0   0:00.07 ksoftirqd/0                                       (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0,0   0,0   0:00.61 rcu_sched                                         (B[m[39;49m[K
+(B[m     14 root      rt   0       0      0      0 S   0,0   0,0   0:00.00 migration/0                                       (B[m[39;49m[K
+(B[m     15 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0                                     (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0                                           (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1                                           (B[m[39;49m[K
+(B[m     18 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1                                     (B[m[39;49m[K
+(B[m     19 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/1                                       (B[m[39;49m[K
+(B[m     20 root      20   0       0      0      0 S   0,0   0,0   0:00.18 ksoftirqd/1                                       (B[m[39;49m[K
+(B[m     22 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri                       (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2                                           (B[m[39;49m[K
+(B[m     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2                                     (B[m[39;49m[K
+(B[m     25 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/2                                       (B[m[39;49m[K
+(B[m     26 root      20   0       0      0      0 S   0,0   0,0   0:00.08 ksoftirqd/2                                       (B[m[39;49m[K
+(B[m     28 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri                       (B[m[39;49m[K
+(B[m     29 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs                                         (B[m[39;49m[K
+(B[m     30 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns                                             (B[m[39;49m[K
+(B[m     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq                                      (B[m[39;49m[K[H(B[mtop - 11:20:42 up 19 min,  1 user,  load average: 0,51, 0,55, 0,43(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  1,0 (B[m[39;49mus,(B[m[39;49m[1m  1,3 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m 97,0 (B[m[39;49mid,(B[m[39;49m[1m  0,7 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  0,0 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m   1472 dyllasd+  20   0 3649132 162972  14268 S   2,0   5,4   2:42.00 firefox                                           (B[m[39;49m[K
+(B[m   1116 dyllasd+  20   0 4069472  45908   6852 S   1,0   1,5   0:41.51 gnome-shell                                       (B[m[39;49m[K
+(B[m   1591 dyllasd+  20   0 2776560  79036   8036 S   1,0   2,6   0:26.25 Web Content                                       (B[m[39;49m[K
+(B[m[1m   2481 dyllasd+  20   0   20632   2124   1316 R   1,0   0,1   0:00.08 top                                               (B[m[39;49m[K
+(B[m      1 root      20   0  167620   2556      0 S   0,0   0,1   0:01.52 systemd                                           (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd                                          (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp                                            (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp                                        (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri                       (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq                                      (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_rude_                                   (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_trace                                   (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 S   0,0   0,0   0:00.07 ksoftirqd/0                                       (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0,0   0,0   0:00.61 rcu_sched                                         (B[m[39;49m[K
+(B[m     14 root      rt   0       0      0      0 S   0,0   0,0   0:00.00 migration/0                                       (B[m[39;49m[K
+(B[m     15 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0                                     (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0                                           (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1                                           (B[m[39;49m[K
+(B[m     18 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1                                     (B[m[39;49m[K
+(B[m     19 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/1                                       (B[m[39;49m[K
+(B[m     20 root      20   0       0      0      0 S   0,0   0,0   0:00.18 ksoftirqd/1                                       (B[m[39;49m[K
+(B[m     22 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri                       (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2                                           (B[m[39;49m[K
+(B[m     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2                                     (B[m[39;49m[K
+(B[m     25 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/2                                       (B[m[39;49m[K
+(B[m     26 root      20   0       0      0      0 S   0,0   0,0   0:00.08 ksoftirqd/2                                       (B[m[39;49m[K
+(B[m     28 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri                       (B[m[39;49m[K
+(B[m     29 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs                                         (B[m[39;49m[K
+(B[m     30 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns                                             (B[m[39;49m[K
+(B[m     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq                                      (B[m[39;49m[K
+(B[m     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd                                           (B[m[39;49m[K
+(B[m     33 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd                                        (B[m[39;49m[K
+(B[m     34 root      20   0       0      0      0 S   0,0   0,0   0:00.37 oom_reaper                                        (B[m[39;49m[K
+(B[m     35 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback                                         (B[m[39;49m[K
+(B[m     36 root      20   0       0      0      0 S   0,0   0,0   0:00.07 kcompactd0                                        (B[m[39;49m[K
+(B[m     37 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd                                              (B[m[39;49m[K
+(B[m     38 root      39  19       0      0      0 S   0,0   0,0   0:00.00 khugepaged                                        (B[m[39;49m[K
+(B[m     44 root      20   0       0      0      0 I   0,0   0,0   0:00.32 kworker/1:1-events                                (B[m[39;49m[K
+(B[m     85 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kintegrityd                                       (B[m[39;49m[K[H(B[mtop - 11:20:43 up 19 min,  1 user,  load average: 0,51, 0,55, 0,43(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  1,4 (B[m[39;49mus,(B[m[39;49m[1m  0,7 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m 97,3 (B[m[39;49mid,(B[m[39;49m[1m  0,7 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  0,0 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m   1472 dyllasd+  20   0 3649132 162972  14268 S   2,0   5,4   2:42.02 firefox                                           (B[m[39;49m[K
+(B[m   2107 dyllasd+  20   0 2486928  42768  10060 S   2,0   1,4   0:21.93 file:// Content                                   (B[m[39;49m[K
+(B[m   2297 dyllasd+  20   0 2681132  61256   5116 S   2,0   2,0   0:16.30 Web Content                                       (B[m[39;49m[K
+(B[m    856 dyllasd+   9 -11 2990168   2992   1644 S   1,0   0,1   0:07.49 pulseaudio                                        (B[m[39;49m[K
+(B[m   1773 dyllasd+  20   0 2436000  21092   9364 S   1,0   0,7   0:07.60 Web Content                                       (B[m[39;49m[K
+(B[m   1804 dyllasd+  20   0 2435236  21468   7360 S   1,0   0,7   0:05.25 Web Content                                       (B[m[39;49m[K
+(B[m      1 root      20   0  167620   2556      0 S   0,0   0,1   0:01.52 systemd                                           (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd                                          (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp                                            (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp                                        (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri                       (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq                                      (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_rude_                                   (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_trace                                   (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 S   0,0   0,0   0:00.07 ksoftirqd/0                                       (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0,0   0,0   0:00.61 rcu_sched                                         (B[m[39;49m[K
+(B[m     14 root      rt   0       0      0      0 S   0,0   0,0   0:00.00 migration/0                                       (B[m[39;49m[K
+(B[m     15 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0                                     (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0                                           (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1                                           (B[m[39;49m[K
+(B[m     18 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1                                     (B[m[39;49m[K
+(B[m     19 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/1                                       (B[m[39;49m[K
+(B[m     20 root      20   0       0      0      0 S   0,0   0,0   0:00.18 ksoftirqd/1                                       (B[m[39;49m[K
+(B[m     22 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri                       (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2                                           (B[m[39;49m[K
+(B[m     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2                                     (B[m[39;49m[K
+(B[m     25 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/2                                       (B[m[39;49m[K
+(B[m     26 root      20   0       0      0      0 S   0,0   0,0   0:00.08 ksoftirqd/2                                       (B[m[39;49m[K
+(B[m     28 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri                       (B[m[39;49m[K
+(B[m     29 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs                                         (B[m[39;49m[K
+(B[m     30 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns                                             (B[m[39;49m[K
+(B[m     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq                                      (B[m[39;49m[K
+(B[m     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd                                           (B[m[39;49m[K
+(B[m     33 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd                                        (B[m[39;49m[K
+(B[m     34 root      20   0       0      0      0 S   0,0   0,0   0:00.37 oom_reaper                                        (B[m[39;49m[K
+(B[m     35 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback                                         (B[m[39;49m[K
+(B[m     36 root      20   0       0      0      0 S   0,0   0,0   0:00.07 kcompactd0                                        (B[m[39;49m[K
+(B[m     37 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd                                              (B[m[39;49m[K
+(B[m     38 root      39  19       0      0      0 S   0,0   0,0   0:00.00 khugepaged                                        (B[m[39;49m[K[H(B[mtop - 11:20:44 up 19 min,  1 user,  load average: 0,51, 0,55, 0,43(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  2,0 (B[m[39;49mus,(B[m[39;49m[1m  1,3 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m 96,1 (B[m[39;49mid,(B[m[39;49m[1m  0,3 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  0,3 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   2961,9 (B[m[39;49mtotal,(B[m[39;49m[1m   2132,1 (B[m[39;49mfree,(B[m[39;49m[1m    708,5 (B[m[39;49mused,(B[m[39;49m[1m    121,3 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m    687,5 (B[m[39;49mtotal,(B[m[39;49m[1m      0,1 (B[m[39;49mfree,(B[m[39;49m[1m    687,4 (B[m[39;49mused.(B[m[39;49m[1m   2101,1 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   1472 dyllasd+  20   0 3649132 162972  14268 S   2,0   5,4   2:42.04 firefox                                           (B[m[39;49m[K
+(B[m   2107 dyllasd+  20   0 2486928  42768  10060 S   2,0   1,4   0:21.95 file:// Content                                   (B[m[39;49m[K
+(B[m    856 dyllasd+   9 -11 2990168   2992   1644 S   1,0   0,1   0:07.50 pulseaudio                                        (B[m[39;49m[K
+(B[m   1591 dyllasd+  20   0 2776560  79036   8036 S   1,0   2,6   0:26.26 Web Content                                       (B[m[39;49m[K
+(B[m   1804 dyllasd+  20   0 2435236  21468   7360 S   1,0   0,7   0:05.26 Web Content                                       (B[m[39;49m[K
+(B[m   2235 dyllasd+  20   0  823172  11552   4436 S   1,0   0,4   0:03.78 gnome-terminal-                                   (B[m[39;49m[K
+(B[m[1m   2481 dyllasd+  20   0   20632   2124   1316 R   1,0   0,1   0:00.09 top                                               (B[m[39;49m[K
+(B[m      1 root      20   0  167620   2556      0 S   0,0   0,1   0:01.52 systemd                                           (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kthreadd                                          (B[m[39;49m[K
+(B[m      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp                                            (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par_gp                                        (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/0:0H-events_highpri                       (B[m[39;49m[K
+(B[m      9 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 mm_percpu_wq                                      (B[m[39;49m[K
+(B[m     10 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_rude_                                   (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 S   0,0   0,0   0:00.00 rcu_tasks_trace                                   (B[m[39;49m[K
+(B[m     12 root      20   0       0      0      0 S   0,0   0,0   0:00.07 ksoftirqd/0                                       (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0,0   0,0   0:00.61 rcu_sched                                         (B[m[39;49m[K
+(B[m     14 root      rt   0       0      0      0 S   0,0   0,0   0:00.00 migration/0                                       (B[m[39;49m[K
+(B[m     15 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/0                                     (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/0                                           (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/1                                           (B[m[39;49m[K
+(B[m     18 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/1                                     (B[m[39;49m[K
+(B[m     19 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/1                                       (B[m[39;49m[K
+(B[m     20 root      20   0       0      0      0 S   0,0   0,0   0:00.18 ksoftirqd/1                                       (B[m[39;49m[K
+(B[m     22 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/1:0H-events_highpri                       (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0,0   0,0   0:00.00 cpuhp/2                                           (B[m[39;49m[K
+(B[m     24 root     -51   0       0      0      0 S   0,0   0,0   0:00.00 idle_inject/2                                     (B[m[39;49m[K
+(B[m     25 root      rt   0       0      0      0 S   0,0   0,0   0:00.30 migration/2                                       (B[m[39;49m[K
+(B[m     26 root      20   0       0      0      0 S   0,0   0,0   0:00.08 ksoftirqd/2                                       (B[m[39;49m[K
+(B[m     28 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker/2:0H-events_highpri                       (B[m[39;49m[K
+(B[m     29 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kdevtmpfs                                         (B[m[39;49m[K
+(B[m     30 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns                                             (B[m[39;49m[K
+(B[m     31 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 inet_frag_wq                                      (B[m[39;49m[K
+(B[m     32 root      20   0       0      0      0 S   0,0   0,0   0:00.00 kauditd                                           (B[m[39;49m[K
+(B[m     33 root      20   0       0      0      0 S   0,0   0,0   0:00.00 khungtaskd                                        (B[m[39;49m[K
+(B[m     34 root      20   0       0      0      0 S   0,0   0,0   0:00.37 oom_reaper                                        (B[m[39;49m[K
+(B[m     35 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 writeback                                         (B[m[39;49m[K
+(B[m     36 root      20   0       0      0      0 S   0,0   0,0   0:00.07 kcompactd0                                        (B[m[39;49m[K
+(B[m     37 root      25   5       0      0      0 S   0,0   0,0   0:00.00 ksmd                                              (B[m[39;49m[K[H(B[mtop - 11:20:45 up 20 min,  1 user,  load average: 0,51, 0,55, 0,43(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0,7 (B[m[39;49mus,(B[m[39;49m[1m  0,3 (B[m[39;49msy,(B[m[39;49m[1m  0,0 (B[m[39;49mni,(B[m[39;49m[1m 98,6 (B[m[39;49mid,(B[m[39;49m[1m  0,3 (B[m[39;49mwa,(B[m[39;49m[1m  0,0 (B[m[39;49mhi,(B[m[39;49m[1m  0,0 (B[m[39;49msi,(B[m[39;49m[1m  0,0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m   1116 dyllasd+  20   0 4069472  45908   6852 S   1,0   1,5   0:41.52 gnome-shell                                       (B[m[39;49m[K
+(B[m   1463 dyllasd+  20   0  987156  17892   2036 S   1,0   0,6   0:06.42 gedit                                             (B[m[39;49m[K
+(B[m   1472 dyllasd+  20   0 3649132 162972  14268 S   1,0   5,4   2:42.05 firefox                                           (B[m[39;49m[K
+(B[m   1773 dyllasd+  20   0 2436000  21092   9364 S   1,0   0,7   0:07.61 Web Content                                       (B[m[39;49m[K
+(B[m   2107 dyllasd+  20   0 2486928  42768  10060 S   1,0   1,4   0:21.96 file:// Content                                   (B[m[39;49m[K
+(B[m   2297 dyllasd+  20   0 2681132  61256   5116 S   1,0   2,0   0:16.31 Web Content                                       (B[m[39;49m[K
+(B[m[1m   2481 dyllasd+  20   0   20632   2124   1316 R   1,0   0,1   0:00.10 top                                               (B[m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?1l>[47;1H
+[?12l[?25h[K

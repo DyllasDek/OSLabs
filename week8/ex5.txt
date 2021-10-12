@@ -1,0 +1,1 @@
+Physical address is hardware address of physical memory and virtual address is the one the processor will be seeing, it has it has a tag and offset. With virtual addressing, all application memory accesses go to a page table, which then maps from the virtual to the physical address. 
