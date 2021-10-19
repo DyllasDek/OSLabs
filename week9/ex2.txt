@@ -1,0 +1,1 @@
+Hit/miss ratio will be lower in case when weuse different pages every time. Otherwise - it will increase
