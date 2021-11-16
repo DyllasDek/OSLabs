@@ -1,0 +1,8 @@
+- Restoration
+A good way to pause one thing, do another and then come back again, but there are quite a lot of disadvantages, such as that the fresource should be easily taken away from the process, it is possible external interference,and everything depends on the nature of the resource.
+
+- Prevention
+Deadlock prevention ensures that at least one of the necessary conditions to cause a deadlock will never occur. This strategy is good, because the system does not require information of the existing resources, resource availability and resource requests
+
+- Avoidance
+Deadlock avoidance ensures that the system will not enter an unsafe state. For deadlock avoidance we use Banker’s and Safety algorithm for resource allocation purpose. This strategy is good, because with such algrorith we will never have a situation when system will get deadlock
